@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task List</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="main" class="card">
+          <div class="card-content">
+            <span class="card-title">Task List</span><br><br>
+            <div class="row">
+              <form id="task-form">
+                <div class="input-field col">
+                  <label for="task">New Task</label><br>
+                  <input type="text" name="task" id="task">
+                </div>
+                <input type="submit" value="Add Task" class="btn">
+              </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <h4 id="task-title">To do</h4>
+            <ul class="collection"></ul>
+            <input type="submit" class="clear-tasks" value="Clear">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./JS/app.js"></script>
+</body>
+</html>
